@@ -1,4 +1,4 @@
-﻿$csv = Import-Csv -Path "C:\temp\Projekt_DB2.csv" -Delimiter ";" 
+﻿$csv = Import-Csv -Path "C:\temp\Projekt_DB2.csv" -Delimiter "," 
 
 $IDs = $csv.ID
 $Mannschaften = $csv.Mannschaft
